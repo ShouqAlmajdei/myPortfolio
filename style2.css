@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&disply=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins','sans-serif'rif;
+    box-sizing: border-box;
+}
+
+
+.title{
+    padding-top: 25px;
+    background: rgb(50, 57, 70);
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    cursor: default;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+span{
+    color: rgb(243, 239, 11);
+ }
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: rgb(50, 57, 70);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.calculator{
+    background: rgb(31, 36, 45);
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.calculator form input{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255,0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+}
+
+form .display{
+   display: flex;
+   justify-content: flex-end;
+   margin: 20px 0px; 
+}
+
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+
+form input.equal{
+    width: 145px;
+    color: rgb(243, 239, 11);
+}
+
+form input.operator{
+    color: rgb(243, 239, 11);
+}
